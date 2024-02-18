@@ -1,4 +1,4 @@
-console.log('🌹ㅤejecutando GokuBotLite-MD...');
+console.log('🌹ㅤejecutando SebasBot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
