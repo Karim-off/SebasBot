@@ -53,7 +53,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   const Message = {
     document: { url: `https://github.com/JOSTINofc/Goku-Bot-Lite` },
     mimetype: `application/${document}`,
-    fileName: `[𝑮𝒐𝒌𝒖𝑩𝒐𝒕𝑳𝒊𝒕𝒆]`,
+    fileName: `[𝑺𝒆𝒃𝒂𝒔 𝑩𝒐𝒕]`,
     fileLength: 99999999999999,
     pageCount: 200,
     contextInfo: {
