@@ -5,7 +5,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `[✔️] 𝗬𝗮 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼\n\n¿𝗤𝘂𝗶𝗲𝗿𝗲𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗿𝘁𝗲 𝗱𝗲 𝗻𝘂𝗲𝘃𝗼?\n\n 📓𝗨𝘀𝗮 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝘁𝘂 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶𝗼𝗻 \n${usedPrefix}𝘂𝗻𝗿𝗲𝗴 <Número de serie>`;
-  if (!Reg.test(text)) throw `[❕] 𝗨𝘀𝗼 𝗶𝗻𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗼\n\n—◉ 𝗨𝘀𝗼 𝗱𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼: ${usedPrefix + command} *nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} 🧸Ender.16*`;
+  if (!Reg.test(text)) throw `[❕] 𝗨𝘀𝗼 𝗶𝗻𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗼\n\n—◉ 𝗨𝘀𝗼 𝗱𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼: ${usedPrefix + command} *nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} 🧸Angel.16*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙳𝙴𝙱𝙴𝚂 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴*';
   if (!age) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙰 𝙴𝙳𝙰𝙳 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙰*';
@@ -19,7 +19,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   user.registered = true;
   const sn = createHash('md5').update(m.sender).digest('hex');
   const caption = `┏┅ ━━━━━━━━━━━━ ┅ ━
-┇「 ~🪁𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗖𝗜𝗢́𝗡🪁~ 」
+┇「 ~🧸𝗩𝗘𝗥𝗜𝗙𝗜𝗖𝗔𝗖𝗜𝗢́𝗡🧸~ 」
 ┣┅ ━━━━━━━━━━━━ ┅ ━
 ┃🖋️ ✦𝗡𝗮𝗺𝗲: ${name}
 ┃🖋️ ✦𝗘𝗱𝗮𝗱: ${age} años
@@ -27,7 +27,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
 ┃${sn}
 ┣┅ ━━━━━━━━━━━━ ┅ ━
 ┣┅ 🧸✦𝗬𝗮 𝗲𝘀𝘁𝗮𝘀 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗱𝗼 𝗲𝗻
-┣┅ 🧸✦𝗟𝗼𝗯𝗼-𝗯𝗼𝘁-𝗠𝗗🐺
+┣┅ 🧸✦𝗦𝗲𝗯𝗮𝘀𝗕𝗼𝘁🧸
 ┃    
 ┣┅ 📄☆𝗗𝗮𝘁𝗼☆:...
 ┃
