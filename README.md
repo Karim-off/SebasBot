@@ -26,7 +26,7 @@
 </a>
 
 ### `—◉ 📍𝗔𝗰𝘁𝗶𝘃𝗮𝗿 𝗲𝗻 𝘁𝗲𝗿𝗺𝘂𝘅📍` 
-- ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+-:
 ```bash
 Bot de uso exclusivo no publico
 ```
