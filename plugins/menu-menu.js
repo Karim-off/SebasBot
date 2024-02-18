@@ -509,7 +509,7 @@ let menu = `┏━━━━━━━━━━━━━━━━┓
 ┣🍭 𝐜𝐚𝐫𝐭𝐨𝐨𝐧 𝚛𝚎𝚜𝚙𝚘𝚗𝚍𝚎𝚛 𝚊 𝚒𝚖𝚊𝚐𝚎𝚗
 ┗━━━━━━━━━━━━━━━━┛`.trim()
 //conn.sendFile(m.chat, pp, 'lp.jpg', menu, m, false, { contextInfo: { mentionedJid }})
-let img = await (await fetch(`https://telegra.ph/file/a41a6f1ab57f829887fec.jpg`)).buffer()  
+let img = await (await fetch(`https://telegra.ph/file/3871edd05ec8f3989f61d.jpg`)).buffer()  
 await conn.sendMessage(m.chat, {
 text: menu,
 contextInfo: { 
