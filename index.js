@@ -32,7 +32,7 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  say('Ajusta la pantalla para escanear el QR de GokuBotLite-MD', {
+  say('Ajusta la pantalla para escanear el QR de SebasBot-MD', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']});
